@@ -55,24 +55,22 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-INPUT_DIR = BASE_DIR / "Input_Images"
-OUTPUT_DIR = BASE_DIR / "Texture_Segmentation" / "Texture_Segmentation_Images"
+INPUT_DIR = BASE_DIR / "input_images"
+OUTPUT_DIR = BASE_DIR / "Texture_segmentation" / "Texture_Segmentation_Images"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # --------------------------------------------------
 # Input image names
-# Make sure your image names match exactly
 # --------------------------------------------------
 
 image_files = [
-    "coastline.jpg",
-    "tahoe.jpg",
+    "coastline.JPG",
+    "tahoe.JPG",
     "DW.jpg",
     "marine_brood.jpg"
 ]
-
 
 # --------------------------------------------------
 # Texture segmentation parameters
