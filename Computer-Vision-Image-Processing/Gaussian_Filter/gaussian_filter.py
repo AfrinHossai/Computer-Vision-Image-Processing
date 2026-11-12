@@ -45,7 +45,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Folder containing the original 4 images
-INPUT_DIR = BASE_DIR / "Input_images"
+INPUT_DIR = BASE_DIR / "input_images"
 
 # Folder where Gaussian filtered images will be saved
 OUTPUT_DIR = BASE_DIR / "Gaussian_Filter" / "Gaussian_Filter_Images"
