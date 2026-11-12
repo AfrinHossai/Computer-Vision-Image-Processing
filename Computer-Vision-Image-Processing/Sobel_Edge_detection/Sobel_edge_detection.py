@@ -46,10 +46,13 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Folder containing original images
-INPUT_DIR = BASE_DIR / "Input_Images"
+INPUT_DIR = BASE_DIR / "input_images"
+
+
 
 # Folder where Sobel edge images will be saved
-OUTPUT_DIR = BASE_DIR / "Sobel_Edge_Detection" / "Sobel_Edge_Images"
+
+OUTPUT_DIR = BASE_DIR / "Sobel_Edge_detection" / "Sobel_Edge_Images"
 
 # Create output folder if it does not already exist
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -61,12 +64,11 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # --------------------------------------------------
 
 image_files = [
-    "coastline.jpg",
-    "tahoe.jpg",
+    "coastline.JPG",
+    "tahoe.JPG",
     "DW.jpg",
     "marine_brood.jpg"
 ]
-
 
 # --------------------------------------------------
 # Sobel parameters
