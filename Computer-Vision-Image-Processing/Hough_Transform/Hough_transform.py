@@ -57,7 +57,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-INPUT_DIR = BASE_DIR / "Input_Images"
+INPUT_DIR = BASE_DIR / "input_images"
 OUTPUT_DIR = BASE_DIR / "Hough_Transform" / "Hough_Images"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -68,12 +68,11 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # --------------------------------------------------
 
 image_files = [
-    "coastline.jpg",
-    "tahoe.jpg",
+    "coastline.JPG",
+    "tahoe.JPG",
     "DW.jpg",
     "marine_brood.jpg"
 ]
-
 
 # --------------------------------------------------
 # Per-image parameters
