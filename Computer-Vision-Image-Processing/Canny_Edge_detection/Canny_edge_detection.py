@@ -46,24 +46,22 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-INPUT_DIR = BASE_DIR / "Input_Images"
-OUTPUT_DIR = BASE_DIR / "Canny_Edge_Detection" / "Canny_Edge_Images"
+INPUT_DIR = BASE_DIR / "input_images"
+OUTPUT_DIR = BASE_DIR / "Canny_Edge_detection" / "Canny_Edge_Images"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # --------------------------------------------------
 # List of input images
-# Make sure your image names match these names exactly
 # --------------------------------------------------
 
 image_files = [
-    "coastline.jpg",
-    "tahoe.jpg",
+    "coastline.JPG",
+    "tahoe.JPG",
     "DW.jpg",
     "marine_brood.jpg"
 ]
-
 
 # --------------------------------------------------
 # Canny edge detection parameters
