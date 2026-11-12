@@ -45,11 +45,11 @@ from pathlib import Path
 # Set folder paths
 # --------------------------------------------------
 
-# BASE_DIR means the main project folder: CS136_Term_Project
+# Set project directory
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Folder containing original images
-INPUT_DIR = BASE_DIR / "Input_Images"
+INPUT_DIR = BASE_DIR / "input_images"
 
 # Folder where Otsu output images will be saved
 OUTPUT_DIR = BASE_DIR / "Otsu_Thresholding" / "Otsu_Thresholding_Images"
@@ -60,16 +60,14 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # --------------------------------------------------
 # Input image names
-# Make sure your image names match exactly
 # --------------------------------------------------
 
 image_files = [
-    "coastline.jpg",
-    "tahoe.jpg",
+    "coastline.JPG",
+    "tahoe.JPG",
     "DW.jpg",
     "marine_brood.jpg"
 ]
-
 
 # --------------------------------------------------
 # Apply Otsu's Thresholding to each image
