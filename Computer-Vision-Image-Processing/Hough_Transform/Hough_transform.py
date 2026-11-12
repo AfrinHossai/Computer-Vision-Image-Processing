@@ -97,7 +97,7 @@ image_files = [
 #   Thickness of green lines drawn on the output image.
 
 params = {
-    "coastline.jpg": {
+    "coastline.JPG": {
         "canny_low": 50,
         "canny_high": 150,
         "hough_threshold": 80,
@@ -106,7 +106,7 @@ params = {
         "line_thickness": 2
     },
 
-    "tahoe.jpg": {
+    "tahoe.JPG": {
         "canny_low": 80,
         "canny_high": 180,
         "hough_threshold": 100,
@@ -135,7 +135,6 @@ params = {
         "line_thickness": 2
     }
 }
-
 
 # --------------------------------------------------
 # Apply Hough Line Transform
