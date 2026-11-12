@@ -75,12 +75,11 @@ GAUSSIAN_KERNEL_SIZE = (5, 5)
 # Higher thresholds remove weak/noisy edges and keep stronger boundaries.
 
 canny_thresholds = {
-    "coastline.jpg": (50, 150),
-    "tahoe.jpg": (80, 180),
-    "DW.jpg": (120, 250),
+    "coastline.JPG": (50, 150),
+    "tahoe.JPG": (50, 150),
+    "DW.jpg": (50, 150),
     "marine_brood.jpg": (50, 150)
 }
-
 
 # --------------------------------------------------
 # Apply Canny edge detection to each image
