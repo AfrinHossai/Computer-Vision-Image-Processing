@@ -119,13 +119,20 @@ git clone https://github.com/AfrinHossai/Computer-Vision-Image-Processing.git
 cd Computer-Vision-Image-Processing
 ```
 
+
 ### 3. Install Dependencies
 
-The Python scripts require OpenCV and NumPy.
+Install the required Python packages using:
 
 ```bash
-python3 -m pip install opencv-python numpy
+python3 -m pip install -r requirements.txt
 ```
+
+The project uses OpenCV for image processing and NumPy for numerical operations.
+
+**Note:** The dependency versions are not pinned. The scripts have been successfully executed on macOS, but installation has not been independently verified in a clean environment.
+
+
 
 ### 4. Check Input and Output Paths
 
