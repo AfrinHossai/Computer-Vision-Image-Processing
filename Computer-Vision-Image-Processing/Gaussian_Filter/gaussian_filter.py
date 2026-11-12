@@ -14,7 +14,7 @@ Required folder structure:
 
 CS136_Term_Project/
 │
-├── Input_Images/
+├── input_Images/
 │   ├── coastline.jpg
 │   ├── tahoe.jpg
 │   ├── DW.jpg
