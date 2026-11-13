@@ -177,7 +177,7 @@ The project report provides additional background, methodology, implementation d
 - Thresholding performance depends on image intensity distributions.
 - Hough line detection may identify unwanted lines in highly textured images.
 - Texture segmentation results depend on feature selection and clustering parameters.
-- The current scripts require folder-path consistency checks before reproducible execution.
+
 
 ## Future Improvements
 
