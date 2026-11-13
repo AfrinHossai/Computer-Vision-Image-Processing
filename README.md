@@ -166,6 +166,16 @@ The repository contains saved processed images for all six techniques.
 
 The resulting images illustrate the effects of smoothing, gradient-based edge detection, Canny edge detection, automatic thresholding, Hough line detection, and texture-based segmentation.
 
+### Texture Segmentation Example
+
+The following example compares an original coastline image with its texture-based segmentation result.
+
+| Original Image | Texture Segmentation Result |
+|---|---|
+| ![Original coastline](input_images/coastline.JPG) | ![Segmented coastline](Texture_segmentation/Texture_Segmentation_Images/coastline_texture_segmented.jpg) |
+
+The segmentation highlights broad differences between ocean, land, and coastal foam. Some fine details are lost, and the output has not been quantitatively evaluated against labeled ground truth.
+
 ## Project Report
 
 The project report provides additional background, methodology, implementation details, and discussion of the image processing results.
