@@ -134,13 +134,15 @@ The project uses OpenCV for image processing and NumPy for numerical operations.
 
 
 
-### 4. Check Input and Output Paths
+### 4. Input and Output Directories
 
-Before running the scripts, make sure their folder paths match the repository structure.
+All six Python scripts use paths relative to their file locations.
 
-The current scripts reference `Input_Images`, while the uploaded folder is named `input_images`. Some output folder names also differ in capitalization.
+The input images are stored in the `input_images/` directory at the repository root.
 
-These differences need to be corrected before reliable execution on case-sensitive systems.
+Each technique saves its processed images to a corresponding output directory inside its technique folder.
+
+The input and output directory paths have been standardized and successfully tested on macOS.
 
 ### 5. Run an Image Processing Script
 
