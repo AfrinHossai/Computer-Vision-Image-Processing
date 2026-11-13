@@ -144,7 +144,7 @@ These differences need to be corrected before reliable execution on case-sensiti
 
 ### 5. Run an Image Processing Script
 
-After correcting the folder paths, for example, run Gaussian filtering using:
+From the repository's root directory, run Gaussian Filtering using:
 
 ```bash
 python3 Gaussian_Filter/gaussian_filter.py
@@ -152,9 +152,11 @@ python3 Gaussian_Filter/gaussian_filter.py
 
 Other techniques can be executed using their corresponding Python scripts.
 
+All six image processing scripts were successfully executed on macOS using the four included input images.
+
 The scripts save processed images in their respective output folders.
 
-**Note:** The complete repository has not yet been independently tested in a clean environment.
+**Note:** Installation and execution have not yet been independently verified in a clean environment.
 
 ## Project Results
 
